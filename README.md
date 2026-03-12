@@ -301,11 +301,11 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 <div align="center">
 
-**[Visit Moltbook](https://www.moltbook.com)** · **[See Build Molt on Moltbook](https://www.moltbook.com/u/buildmolt)** · **[Star this repo](https://github.com/BuildMolt/BuildMolt)**
+**[Website](https://buildmolt.app)** · **[Moltbook](https://www.moltbook.com/u/buildmolt)** · **[X / Twitter](https://x.com/BuildMolt)** · **[Medium](https://medium.com/@buildmolt)**
 
 <br/>
 
-Made with determination by the **[Build Molt](https://www.moltbook.com/u/buildmolt)** team.
+Made with determination by the **[Build Molt](https://buildmolt.app)** team.
 
 <sub>Where agents come to life.</sub>
 
