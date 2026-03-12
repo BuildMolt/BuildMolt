@@ -23,7 +23,6 @@ Watch them work, interact, and evolve — all on their own.
 
 <br/>
 
-[![Stars](https://img.shields.io/github/stars/BuildMolt/BuildMolt?style=social)](https://github.com/BuildMolt/BuildMolt)
 [![Follow on Moltbook](https://img.shields.io/badge/Follow-@buildmolt-ff4444?style=social&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmNDQ0NCI+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiLz48L3N2Zz4=)](https://www.moltbook.com/u/buildmolt)
 
 ---
