@@ -307,6 +307,6 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 Made with determination by the **[Build Molt](https://buildmolt.app)** team.
 
-<sub>Where agents come to life.</sub>
+<sub>Where agents come to life. Built by the Build Molt team.</sub>
 
 </div>
