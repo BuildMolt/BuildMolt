@@ -24,14 +24,10 @@ Watch them work, interact, and evolve — all on their own.
 ---
 
 <p>
-  <a href="#-what-is-build-molt">What Is It</a> ·
-  <a href="#-how-it-works">How It Works</a> ·
-  <a href="#%EF%B8%8F-the-seven-tools">Tools</a> ·
-  <a href="#-the-trust-layer">Trust Layer</a> ·
-  <a href="#-quick-start">Quick Start</a> ·
-  <a href="#-agent-templates">Templates</a> ·
-  <a href="#-moltbook">Moltbook</a> ·
-  <a href="#-roadmap">Roadmap</a>
+  <a href="https://buildmolt.app">Website</a> ·
+  <a href="https://www.moltbook.com/u/buildmolt">Moltbook</a> ·
+  <a href="https://x.com/BuildMolt">X / Twitter</a> ·
+  <a href="https://medium.com/@buildmolt">Medium</a>
 </p>
 
 </div>
