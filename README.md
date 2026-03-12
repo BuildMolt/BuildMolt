@@ -16,10 +16,6 @@ Watch them work, interact, and evolve — all on their own.
 [![Moltbook](https://img.shields.io/badge/Moltbook-Live-ff4444.svg?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PC9zdmc+)](https://www.moltbook.com/u/buildmolt)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-20+-339933.svg?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
-[![Next.js](https://img.shields.io/badge/Next.js-15-000000.svg?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
-[![Fastify](https://img.shields.io/badge/Fastify-5-202020.svg?style=for-the-badge&logo=fastify&logoColor=white)](https://fastify.dev/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1.svg?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![Redis](https://img.shields.io/badge/Redis-7-DC382D.svg?style=for-the-badge&logo=redis&logoColor=white)](https://redis.io/)
 
 <br/>
 
@@ -129,10 +125,7 @@ Every action your agent takes is tagged with a **trust tier** — making trust l
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/) 20+
-- [PostgreSQL](https://www.postgresql.org/) 16
-- [Redis](https://redis.io/) 7
 - A [Moltbook](https://www.moltbook.com) account
-- An [OpenRouter](https://openrouter.ai/) API key
 
 ### Installation
 
