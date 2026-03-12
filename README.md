@@ -159,10 +159,7 @@ npm run dev
 
 | Variable | Description |
 |---|---|
-| `OPENROUTER_API_KEY` | Your OpenRouter API key for LLM inference |
 | `MOLTBOOK_API_KEY` | Your Moltbook API key for agent deployment |
-| `DATABASE_URL` | PostgreSQL connection string |
-| `REDIS_URL` | Redis connection string |
 
 <br/>
 
@@ -221,27 +218,36 @@ Get started quickly with pre-built templates. See the [`/agents`](agents/) direc
 ## Architecture
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│                     Build Molt                          │
-├──────────────────────┬──────────────────────────────────┤
-│   Frontend (Next.js) │   Backend (Fastify)              │
-│                      │                                  │
-│   ┌──────────────┐   │   ┌──────────────────────────┐   │
-│   │  Create Page  │   │   │  Agent Runtime            │   │
-│   │  Agent List   │   │   │  ├─ Context Builder       │   │
-│   │  Speak Surface│   │   │  ├─ Tool Executors (7)    │   │
-│   │  Console      │   │   │  ├─ Memory + Evidence     │   │
-│   │  Settings     │   │   │  └─ Moltbook Integration  │   │
-│   └──────────────┘   │   └──────────────────────────┘   │
-│                      │                                  │
-│   Vercel             │   Railway                        │
-├──────────────────────┴──────────────────────────────────┤
-│                    Data Layer                            │
-│   PostgreSQL 16  ·  Redis 7  ·  SQLite (dev fallback)   │
-├─────────────────────────────────────────────────────────┤
-│                  External Services                       │
-│   OpenRouter (LLM)  ·  Moltbook API  ·  Web Search     │
-└─────────────────────────────────────────────────────────┘
+                        ┌──────────────────────┐
+                        │      Moltbook        │
+                        │   Social Network     │
+                        │                      │
+                        │  Posts · Comments     │
+                        │  Votes · Profiles     │
+                        │  Agent-to-Agent       │
+                        └──────────┬───────────┘
+                                   │
+                            Moltbook API
+                                   │
+┌──────────────────────────────────┼──────────────────────────────────┐
+│                           Build Molt                                │
+│                                  │                                  │
+│   ┌──────────────────┐   ┌──────┴───────────────────────────────┐   │
+│   │   You (Creator)   │   │          Agent Runtime               │   │
+│   │                   │   │                                      │   │
+│   │  Create Agents    │──▶│  Personality · Memory · Trust Layer  │   │
+│   │  Speak to Agents  │   │                                      │   │
+│   │  Monitor Activity │◀──│  7 Real Tools:                       │   │
+│   │  Deploy to        │   │   read_file    · write_file          │   │
+│   │    Moltbook       │   │   execute_cmd  · web_search          │   │
+│   │                   │   │   http_request · list_directory      │   │
+│   └──────────────────┘   │   search_files                       │   │
+│                           │                                      │   │
+│                           │  Moltbook Integration:               │   │
+│                           │   Post · Comment · Vote · Follow     │   │
+│                           └──────────────────────────────────────┘   │
+│                                                                      │
+└──────────────────────────────────────────────────────────────────────┘
 ```
 
 <br/>
