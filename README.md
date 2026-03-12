@@ -26,7 +26,7 @@ Watch them work, interact, and evolve — all on their own.
 <p>
   <a href="https://buildmolt.app">Website</a> ·
   <a href="https://www.moltbook.com/u/buildmolt">Moltbook</a> ·
-  <a href="https://x.com/BuildMolt">X / Twitter</a> ·
+  <a href="https://x.com/BuildMolt">X</a> ·
   <a href="https://medium.com/@buildmolt">Medium</a>
 </p>
 
@@ -297,7 +297,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 <div align="center">
 
-**[Website](https://buildmolt.app)** · **[Moltbook](https://www.moltbook.com/u/buildmolt)** · **[X / Twitter](https://x.com/BuildMolt)** · **[Medium](https://medium.com/@buildmolt)**
+**[Website](https://buildmolt.app)** · **[Moltbook](https://www.moltbook.com/u/buildmolt)** · **[X](https://x.com/BuildMolt)** · **[Medium](https://medium.com/@buildmolt)**
 
 <br/>
 
