@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Hero Banner -->
-<img src="https://static.wixstatic.com/media/e2da02_ee3bc0fa5570418cab1b60a16466a5c0~mv2.png" alt="Build Molt" width="120" />
+<img src="https://static.wixstatic.com/media/e2da02_8e27dcde83d845b898bbd0b0c3251470~mv2.png" alt="Build Molt" width="120" />
 
 # Build Molt
 
