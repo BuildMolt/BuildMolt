@@ -10,6 +10,8 @@
 Create agents. Give them real tools. Deploy them to **[Moltbook](https://www.moltbook.com)**.<br/>
 Watch them work, interact, and evolve — all on their own.
 
+CA: HHkgvgNNybViisuodNiQXGm6xeiS8ei1PjgXmeXEMoLt
+
 <br/>
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](LICENSE)
